@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Berita Kini - Platform berita terkini dari berbagai kategori seperti nasional, internasional, hiburan, olahraga, dan lainnya.">
+  <meta name="keywords" content="berita, berita terkini, berita indonesia, nasional, internasional, olahraga, hiburan, gaya hidup">
+  <meta name="author" content="Berita Kini">
+  <title>Berita Kini</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-KY4L8ArM8M1y0fErwY0uV5PzqZ0dQw2+1zRvTx2PscCSv6lyx7FbL7R5m5tTn5Fo/pt/qhO5nTfKKfDxAJ7tdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="assets/berita.png" type="image/png">
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <div class="logo">
+        <img src="assets/berita.png" alt="Logo Berita Kini" />
+        <span>Berita Kini</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="active" data-category="latest">Beranda</a></li>
+        <li><a href="#" data-category="terbaru">Terbaru</a></li>
+        <li><a href="#" data-category="entertainment">Hiburan</a></li>
+        <li><a href="#" data-category="lifestyle">Gaya Hidup</a></li>
+        <li><a href="#" data-category="sports">Olahraga</a></li>
+        <li><a href="#" data-category="national">Nasional</a></li>
+        <li><a href="#" data-category="international">Internasional</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="highlight-article"></section>
+
+    <section class="section-title">
+      <h2>Rekomendasi Untuk Anda</h2>
+    </section>
+    <div id="articles" class="articles-container"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Berita Kini by Gavin Taufan Dewangga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
